@@ -11,7 +11,7 @@
 <body>
   <div id="showcaseWrapper" class="container">
     <div id="showcaseImage1" class="imagediv">
-      <img src = {weme1} class='image' alt="persoon1">
+      <img src = "src/pics/weme1.jpg" class='image' alt="persoon1">
     </div>
     <div id="showcaseImage2" class="imagediv">
       <img src = {weme2} class='image' alt="persoon1">
@@ -41,6 +41,7 @@
   .container {
     width: 100%;
     display: flex;
+    gap: 20px;
     align-content: center;
     justify-content: center;
   }
